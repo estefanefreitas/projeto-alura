@@ -1,4 +1,4 @@
-var elencos = [
+let elenco = [
   {
     titulo: "Robert Downey Jr. como Tony Stark/Homem de Ferro",
     imagem: "./img/robert.webp",

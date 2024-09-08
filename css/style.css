@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../img/bg1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+.container-busca {
+  background-color: rgba(0, 0, 0, 0.468);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin: 20px;
+}
+
+.busca-titulo {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.busca-input {
+  width: 30rem; 
+  border: 2px solid #891f1f;
+  padding: 1rem; 
+  border-radius: 1.5rem; 
+  margin-bottom: 1rem; 
+  color: #45474b; 
+  font-size: 1rem; 
+  box-sizing: border-box; 
+}
+
+.busca-input[type] {
+  text-align: center;
+}
+
+.busca-botao {
+  background-color: #8c0d0d;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 1.5rem;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.busca-botao:hover {
+  background-color: #670c0c;
+}
+.container-elenco {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  margin-bottom: 3rem;
+  overflow-y: auto;
+  
+}
+
+.elenco-item-img-conteudo {
+  display: flex;
+  gap: 20px;
+}
+
+.elenco-descricao {
+  text-align: justify;
+}
+.descricao-frase {
+  font-style: italic;
+}
+.elenco-item {
+  color: #ffff;
+  background: #000000; 
+  border-radius: 0.6rem; 
+  padding: 1rem; 
+  margin-bottom: 1rem; 
+  box-shadow: 0 2px 4px rgba(242, 237, 237, 0.813); 
+  
+}
+
+.elenco-item a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.elenco-item h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.elenco-item img {
+  margin: 0;
+  display: flex;
+  height: 200px;
+  object-fit: cover;
+}
+
+.descricao-frase {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.container-footer {
+  background-color: #8c0d0d; 
+  color: #ffff; 
+  text-align: center; 
+  padding: 0; 
+  width: 100%; 
+  position: absolute; 
+  bottom: 0; 
+  font-size: 1rem; /
+}
+.footer-texto a {
+  text-decoration: none;
+  color: #fff;
+}
+@media (max-width: 600px) {
+  
+  .container-busca h1{
+    font-size: 4rem;
+  }
+  .busca-input {
+    width: 100%;
+  } 
+  .container-footer {
+    position: relative; 
+    bottom: auto;
+  }
+  .footer-texto{
+    font-size: 1rem;
+  }
+
+}

@@ -11,7 +11,7 @@ for (let item of elencos) {
           <div class="elenco-descricao">
             <p class="descricao-frase">"${item.descricaoFrase}"
             </p>
-            <p class="descricao-texto">${item.descricaotexto}
+            <p class="descricao-texto">${item.descricaoTexto}
             </p>
           </div>
         </div>
